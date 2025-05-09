@@ -16,6 +16,7 @@ services:
 
   app:
     build: .
+    image: bendayle/tpfoyer
     depends_on:
       - db
     environment:
