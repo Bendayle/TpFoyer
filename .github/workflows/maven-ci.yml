@@ -3,7 +3,7 @@ name: Build Maven Project
 on:
   push:
     branches:
-      - master  # ou la branche que tu veux surveiller
+      - master  
   pull_request:
 
 jobs:
